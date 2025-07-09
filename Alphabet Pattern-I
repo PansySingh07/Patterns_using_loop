@@ -1,0 +1,15 @@
+public class AlphabetPattern {
+   
+  public static void main(String args[]) {
+       int range =5;
+       char cr = 'A';
+       for( int row =0; row<range; row++){
+           for(int col=0; col<=row; col++){
+               System.out.print ( cr + " "); //to print A as a string.
+               cr ++;
+           }
+           
+           System.out.println();
+       }
+  }
+}
